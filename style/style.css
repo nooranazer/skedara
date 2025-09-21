@@ -54,46 +54,50 @@ header .header-right .btn:hover {
 
 /* banner */
 
-#banner .wrapper {
+#banner .container {
   position: relative;
   max-width: 1292px;
-  height: 855px; 
+  min-height: 855px;
   background: url("../images/bg-banner.png") no-repeat center/cover;
   color: #fff;
   display: flex;
-  
   /* align-items: center; */
 
 }
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background:url("../images/bg-overlay.png");
+  background:url("../images/bg-overlay.png")no-repeat center/cover;
   z-index: 1;
 }
 .banner-left-shape {
   position: absolute;
   top: 43px;
   left: -1px;
-  width: 839px;  
-  height: 762px;
-  background: url("../images/shadow\ img.png") no-repeat left center/contain;
+  width: 839px;      
+  height: 762px;     
+  background: url("../images/shadow-img.png") no-repeat left center;
+  background-size: contain; 
   z-index: -1; 
   pointer-events: none; 
 }
+
 .banner-content {
   position: relative;
-  z-index: 2; 
-  margin-top: 87px;
-  margin-left: 182px;
+  z-index: 2;
+  padding: 5% 10%; /* responsive padding */
+  /* max-width: 700px; */
+}
+
 
   /* max-width: 600px; */
-}
+
 .banner-content h1 {
     color: #F5F5F5;
     font-family: inter-bold;
     font-size: 48px;
     max-width: 700px;
+    margin-top: 87px;
 }
 
 .banner-content span {
@@ -103,6 +107,29 @@ header .header-right .btn:hover {
     font-weight: 400px;
     font-size: 18px;
     color: #ECEAE8;
+    line-height: 24px;
+    max-width: 638px;
+    margin: 16px 0px 32px 0px;
+}
+.banner-buttons{
+display: flex;
+   gap:18px; 
+} 
+
+.banner-buttons .btn2{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;    
+    font-style: medium;
+    color:#FFFFFF;
+    padding: 14px 24px;
+    border-radius: 16px;
+    /* gap:18px; */
+    text-decoration: none;
+    line-height: 100%;
+    background-color:transparent;
+    border: 1px solid white;
+    vertical-align: middle;
 }
 
 
