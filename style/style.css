@@ -1,0 +1,231 @@
+/* Header */
+header {
+  background-color: #fff;
+  /* padding: 14px 0px;  */
+}
+
+header .container {
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px; 
+}
+
+header .header-right ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 30px 0px;
+  padding: 0;
+}
+
+header .header-right ul li a {
+  color: #37474F;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header .header-right ul li a:hover {
+  color: #0367A1; 
+}
+
+/* header .header-right .btn {
+  background-color: #0B2A67;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 24px;
+  border-radius: 24px;
+  text-decoration: none;
+} */
+
+header .header-right .btn:hover {
+  background-color: #2eaef3;
+}
+
+/* banner */
+
+#banner .wrapper {
+  position: relative;
+  max-width: 1292px;
+  height: 855px; 
+  background: url("../images/bg-banner.png") no-repeat center/cover;
+  color: #fff;
+  display: flex;
+  
+  /* align-items: center; */
+
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background:url("../images/bg-overlay.png");
+  z-index: 1;
+}
+.banner-left-shape {
+  position: absolute;
+  top: 43px;
+  left: -1px;
+  width: 839px;  
+  height: 762px;
+  background: url("../images/shadow\ img.png") no-repeat left center/contain;
+  z-index: -1; 
+  pointer-events: none; 
+}
+.banner-content {
+  position: relative;
+  z-index: 2; 
+  margin-top: 87px;
+  margin-left: 182px;
+
+  /* max-width: 600px; */
+}
+.banner-content h1 {
+    color: #F5F5F5;
+    font-family: inter-bold;
+    font-size: 48px;
+    max-width: 700px;
+}
+
+.banner-content span {
+    color: #0CBA4C;
+}
+.banner-content p {
+    font-weight: 400px;
+    font-size: 18px;
+    color: #ECEAE8;
+}
+
+
+
+
+
+
+/* service */
+#service {
+    background-color:#F4F7FC;
+
+}
+
+#service .container {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 131px;
+
+}
+
+#service .service-left h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 5%;
+    color: #0367A1E5;
+
+} 
+
+#service .service-left h2{
+    font-weight: 500;
+    color: black;
+    font-style: medium;
+    font-size: 30px;
+    line-height: 48px;
+
+}
+
+
+#service .service-left p{
+    font-weight: 400;
+    color:#4D4D4D;
+    font-size: 18px;
+    line-height: 32px;
+    vertical-align: middle;
+
+}
+
+/* #service .service-left a{
+    font-weight: 500;
+    color:#4D4D4D;
+    font-size: 16px;    
+    font-style: medium;
+    color:#FFFFFF;
+    padding: 14px 24px;
+    border-radius: 16px;
+    gap: 8px;
+    text-decoration: none;
+    line-height: 100%;
+    background-color: #0B2A67;
+    vertical-align: middle;
+
+} */
+
+#service .service-right {
+  background-image: url(../images/service-right.png);
+  background-repeat: no-repeat; 
+  border-radius: 16px;
+  display: flex;           
+  justify-content: flex-start;
+  align-items: flex-start;     
+}
+
+
+#service .service-right .card {
+    background-color: #FFFFFF;
+    /* width: 316px; */
+    height:388px;
+    position: relative;
+    top: 104px;
+    left: 48px;
+    padding: 0px 0px 0px 24px;
+    margin-bottom: 104px;
+    border-radius: 16px;
+
+}
+#service .service-right .card h3{
+    padding: 40px 0px;
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    
+}
+
+#service .service-right .card .text {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start; 
+}
+
+#service .service-right .card .text .heading {
+  display: flex;            
+  align-items: center;
+  gap: 8px;
+}
+
+#service .service-right .card .text h2 {
+  font-size: 16px;
+  color: #0B2A67E5;
+  margin: 0;
+  font-weight: 600px;
+}
+
+#service .service-right .card .text p {
+  margin-top: 8px;          
+  font-weight: 400;
+  font-size: 16px;
+  color: #4D4D4DE5;
+  margin: 16px 0px 32px 0px ;
+}
+
+
+
+
