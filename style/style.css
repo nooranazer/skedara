@@ -387,4 +387,87 @@ display: flex;
 
 
 
+/* certification */
+
+#certification {
+    position: relative;
+}
+#certification .container {
+    margin-top: 104px;
+}
+
+#certification .head h1 {
+    color: #0367A1E5;
+    font-size: 24px;
+    letter-spacing: 5%;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#certification .head h2 {
+    margin-top: 32px;
+    color: #000000;
+    font-size: 30px;
+    font-family: inter-medium;
+
+}
+
+#certification .cert-card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+    max-width: 692px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    padding: 24px 32px;
+    /* flex: 1; */
+    }
+
+#certification .cert-card h3 {
+    color: #0B2A67;
+    font-family:inter-semibold;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#certification .cert-card p {
+    color: #0B2A67E5;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 30px 54px 56px 0px;
+}
+
+#certification .card-content {
+    display: flex;
+    gap: 54px;
+
+}
+#certification .text {
+    display: block;
+}
+
+#certification .cert-decor {
+    position:absolute;
+    background: url('../images/tri-cert.svg');
+    top: 56px;
+    width: 180px;
+    height: 618px;
+    left: 1156px;
+    right: 0; 
+}
+
+#certification .certification-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+
+
+
+
 
