@@ -84,6 +84,7 @@ td {
 
 body{
     font-family: 'inter';
+    background-color: #FFFFFF;
 }
 
 h1{
@@ -122,20 +123,17 @@ h3{
     src: url(../fonts/Inter_24pt-Bold.ttf);
 }
 
-/* @font-face {
-    font-family: poppinsbold;
-    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+@font-face {
+    font-family: inter-semibold;
+    src: url(../fonts/Inter_18pt-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: poppinssemibold;
-    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+    font-family: inter-medium;
+    src: url(../fonts/Inter_18pt-Medium.ttf)
 }
 
-@font-face {
-    font-family: work-sans;
-    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf); */
-/* } */
+
 
 *{ 
     font-family: inter;
